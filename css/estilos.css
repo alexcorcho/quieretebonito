@@ -137,5 +137,15 @@ font-family: 'Raleway', sans-serif;
   
 }
 .n-baño{
+    padding: 0.5em;
+background-color: #303132;
+text-align: center;
+font-family: 'Raleway', sans-serif;
+}
 
+.n-acces{
+    padding: 0.5em;
+    background-color: #303132;
+    text-align: center; 
+    font-family: 'Raleway', sans-serif;
 }

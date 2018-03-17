@@ -22,6 +22,9 @@ a{
   font-weight: 900;
   
 }
+a:hover{
+    color: dodgerblue;
+}
 
 .logo{
     width: 300px;

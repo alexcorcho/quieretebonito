@@ -19,7 +19,7 @@
         width: 200px;
         height: 100px;
         float:left;
-        margin:5px 0px 0px 150px;
+        margin:5px 0px 0px 100px;
         position: relative; 
         padding: 0; 
           
@@ -34,7 +34,7 @@
         background-image: url("../img/fondo.jpg");
         background-position: center;
         background-repeat: no-repeat;   
-        height: 680px;   
+        height: 580px;   
     }
     
     .envio{
@@ -81,7 +81,7 @@
         width: 250px;
         background-color:rgba(229, 226, 216, 0.5);
         position: absolute;
-        margin-left: 25%;
+        margin-left: 15%;
         margin-top: -350px;
     }
     
@@ -139,12 +139,12 @@
     }
     
     #contenedor{
-        width: 100%;
+        width: 360px;
         height:870px;
     }
     footer{
         background-color:  #303132;
-        width: 100%;
+        width: 360px;
         height: 400px;
     }
     
@@ -158,13 +158,13 @@
     }
     .suscribete{
         display:block;
-        margin-left: 50px;
+        margin-left: 1px;
         
     }
     
     .iconos{
         display: block;
-        margin-left: 30px; 
+        margin-left: 1px; 
     }
     #boton{
         background-color: #d3d3d3;

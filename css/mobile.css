@@ -9,7 +9,7 @@
  .logo{
     width: 250px;
     height: 100px;
-    margin: 5px 0 0  20%;
+    margin: 5px 0 0  15%;
  }
 
  .fondo{
@@ -20,20 +20,67 @@
     height: 110px;
     width: 320px;
 }
-.boton{
-    margin-left: 110px;
+#boton{
+    margin-left: 15px;
+    width: 220px;
 }
- .formal{
-    display: block;
-    position: relative;
- }
+    
+ 
+.formal{
+    
+    display:block;
+    position: absolute;
+    margin-left: 10%;        
+    
+}
 
- .acces{
-     display: block;
-     position: absolute;
- }
+    .acces{
+        display:block ;
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 400px;  
+      
+    }
 
- .contenedor{
-    height: 800px;
- }
+    .n-acces{
+        width: 146px;
+    }
+    
+    footer{      
+        margin-top: 280px;
+        height: 320px;
+
+    }
+    .iconos{
+        display: block;
+        margin: 5px 0 0 100px;
+    }
+
+    #sigue{
+        margin:5px;
+        position:absolute;
+    }
+    .redes{
+        margin: 20px 0 0 0;
+    }
+
+    .suscribete{
+        display: inline-block;
+        margin-left: 70px;
+    }
+    .datos{
+        display: inline-block;
+        margin-left: 10%;  
+        color:  #d3d3d3;
+        margin-top: 80px;        
+    }
+
+   p{
+       font-size: 15px;
+       margin-left: 20%;
+   }
+   span{
+       margin-left: 20%;
+   }
+    
   }

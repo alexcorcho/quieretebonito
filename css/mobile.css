@@ -1,0 +1,39 @@
+@media all and (max-width: 480px){
+ .link{
+     visibility: hidden;
+ }
+ .cabeza{
+     height: 100px;
+ }
+
+ .logo{
+    width: 250px;
+    height: 100px;
+    margin: 5px 0 0  20%;
+ }
+
+ .fondo{
+    height: 600px; 
+ }
+.coleccion{
+    margin-left: 5%;
+    height: 110px;
+    width: 320px;
+}
+.boton{
+    margin-left: 110px;
+}
+ .formal{
+    display: block;
+    position: relative;
+ }
+
+ .acces{
+     display: block;
+     position: absolute;
+ }
+
+ .contenedor{
+    height: 800px;
+ }
+  }

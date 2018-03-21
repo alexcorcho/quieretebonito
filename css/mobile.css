@@ -4,7 +4,9 @@
  }
  .cabeza{
      height: 100px;
+     background-color: #868181;
  }
+
 
  .logo{
     width: 250px;
@@ -15,14 +17,19 @@
  .fondo{
     height: 600px; 
  }
+
 .coleccion{
-    margin-left: 5%;
+    margin-left: 15%;
     height: 110px;
-    width: 320px;
+    width: 250px;
 }
 #boton{
     margin-left: 15px;
     width: 220px;
+}
+
+p{
+    font-size: 20px;
 }
     
  
@@ -34,11 +41,11 @@
     
 }
 
-    .acces{
-        display:block ;
-        position: absolute;
-        margin-left: 10%;
-        margin-top: 400px;  
+.acces{
+    display:block ;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 400px;  
       
     }
 
@@ -66,7 +73,7 @@
 
     .suscribete{
         display: inline-block;
-        margin-left: 70px;
+        margin-left: 17%;
     }
     .datos{
         display: inline-block;
@@ -75,12 +82,18 @@
         margin-top: 80px;        
     }
 
-   p{
+   #contacta{
        font-size: 15px;
-       margin-left: 20%;
+       margin-left: 15%;
    }
    span{
-       margin-left: 20%;
+       margin-left: 15%;
    }
+   .boton{
+    padding: 5px 30px 5px 30px;
+    margin-left: 70px;
+   }
+
+ 
     
   }

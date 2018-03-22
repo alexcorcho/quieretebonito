@@ -135,8 +135,9 @@
     
     .n-acces{
         padding: 0.5em;
+        width: 9em;    
         background-color: #303132;
-        text-align: center; 
+        text-align: center;
         font-family: 'Raleway', sans-serif;
     }
     

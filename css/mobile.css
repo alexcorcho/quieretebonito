@@ -1,4 +1,4 @@
-@media all and (max-width: 480px){
+@media all and (max-width: 360px){
  .link{
      visibility: hidden;
  }
@@ -16,6 +16,8 @@
 
  .fondo{
     height: 600px; 
+    padding: 0;
+    margin: 0;
  }
 
 .coleccion{

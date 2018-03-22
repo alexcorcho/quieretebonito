@@ -160,13 +160,14 @@
     }
     .suscribete{
         display: inline-block;
-        margin-left: 280px;
+        margin-left: 680px;
+        position: absolute;       
         
     }
     
     .iconos{
         display: inline-block;
-        margin-left: 200px;    
+        margin-left: 120px;    
     }
     #boton{
         background-color: #d3d3d3;
@@ -177,7 +178,7 @@
         position: absolute;    
         text-align: center;
         height: 10px;
-        width: 230px;
+        width: 225px;
         padding: 5px 0 10px 0;
     
     }
@@ -199,7 +200,7 @@
     
     .datos{
         display: inline-block;
-        margin-left: 300px;  
+        margin-left: 150px;  
         color:  #d3d3d3;
         margin-top: 10px;
         
@@ -225,4 +226,4 @@
         color:  #d3d3d3;
         margin-left: 25px;
     }
-    }
+    

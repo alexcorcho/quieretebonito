@@ -1,0 +1,17 @@
+@media all and (max-width: 640px) {
+    .targetas_uno{
+        display: inline-block; 
+        margin: 0 0 0 30%;
+        padding:0;
+        width: 100%;
+    }
+
+    .targetas_dos{
+        display: inline-block; 
+        margin: 0 0 0 30%;
+        padding:0;
+        width: 100%;
+    }
+
+}
+

@@ -4,85 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>#QuiereteBonito</title>    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/mobile.css">
-    
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <link rel="stylesheet" href="css/materialize.css"> 
+    <link rel="stylesheet" href="css/estilos.css">  
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body>
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+<header>
+        <nav>
+                <div class="nav-wrapper">                  
+                    <img src="img/logo.png" width="200px" alt="Logo">                 
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li class="menu"><a href="index.html">Inicio</a></li>
+                    <li class="menu"><a href="tienda.html">Tienda</a></li>
+                    <li class="menu"><a href="ofertas.html">Ofertas</a></li>
+                    <li class="menu"><a href="Carro.html">Carro</a></li>
+                  </ul>
+                </div>
+              </nav>
+</header>
 
-    <div class="cabeza">        
-        <div>
-            <img class="logo" src="img/logo.png" alt="">
+ <body>
+        <div class="container">
+                <div class="row">
+                    <div class="col s12">            
+                        <div class="slider ">
+                            <div class="slides">
+                                <li>
+                                    <img src="img/formal.jpg" alt="">
+                                    
+                                </li>
+                                <li>
+                                    <img src="img/fondo.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="img/acces.jpg" alt="">
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="barraEnvios" >
+            <span>ENVIOS A TODO EL PAIS</span>
+            </div>
+            <section class="quierete">
+                <p>#QuiereteBonito</p>
+            </section>
+            </br>
+            <section class="bonito">
+                <p>Marca tu camino, Rompe Las barreras <br>
+                Sueña con los pies en la tierra</p>
+            </section>   
+            <section class="targetas_uno">
+                    <div class="row">
+                            <div class="col s6 m5 hoverable" >
+                              <div class="card">
+                                <div class="card-image">
+                                  <img src="img/formal.jpg">
+                                  <span class="card-title"></span>
+                                </div>
+                                <div class="card-content">
+                                  <p>FORMAL</p>
+                                </div>
+                                <div class="card-action">
+                                  <a href="#">Mira</a>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+        </section>
+        <section class="targetas_dos">
+                <div class="row">
+                <div class="col s6 m5 hoverable">
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="img/acces.jpg">
+                            <span class="card-title"></span>
+                          </div>
+                          <div class="card-content">
+                            <p>ACCESORIOS</p>
+                          </div>
+                          <div class="card-action">
+                            <a href="#">MIRA</a>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>           
+        </section>
+    
+ </body>
+<footer class="page-footer">     
+<div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Sigue a #QuiereteBonito</h6>
+            
+          <section class="imgRedes" > 
+                <img class="redes"  src="img/facebook.png" width="50px" alt="Facebook">
+                <img class="redes"  src="img/twitter.png" width="50px" alt="Twitter">
+                <img class="redes"  src="img/instagram.png" width="50px" alt="Instagram">          
+
+
+          </section>
+              
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h6 class="white-text">Contacta a #QuiereteBonito</h6>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">3211234567</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">ventas@quieretebonito.com</a></li>
+             
+            </ul>
+          </div>
         </div>
-        <div class="menu" >
-        <div>
-        <a class="link" href="#">Inicio</a>
-        <a class="link" href="#">Tienda</a>
-        <a class="link" href="#">Ofertas</a>
-        <a class="link" href="#">Atencion al Cliente</a>
-        <a class="link" href="#">Carro</a> 
-    </div>
-    </div>      
-</div>
-<div class="fondo">
-         
-</div>
-<div class="coleccion" >
-    <p class="nueva" >NUEVA COLECCION</p>
-    <a href="#" class="boton">Comprar</a>
-</div>
-<div class="envio">
-   <p class="p-envio" > ENVIOS A TODO EL PAIS</p>
-</div>
-<h1>#QuiereteBonito</h1>
-<h1>_ </h1>
-<h2>Marca tu camino, Rompe Las barreras</h2>
-
-<h3>Sueña con los pies en la tierra</h3>
-<div id="contenedor">
-<div class="formal" >
-    <img src="img/formal.jpg" id="formal" width="160px" alt="">
-    <div class="n-baño" >
-        <a href="#">FORMAL</a>
-    </div>
-</div>
-<div class="acces" >
-    <img src="img/acces.jpg" id="acces" width="160px" alt="">
-    <div class="n-acces" >
-        <a  href="#">ACCESORIOS</a>
-    </div>
-</div>
-</div>
-<footer>
-    
-    <div class="iconos">
-        <p id="sigue">Sigue a #QuiereteBonito</p>
-        <img class="redes" src="img/facebook.png" width="32px" alt="Facebook">
-        <img class="redes" src="img/twitter.png" width="32px" alt="Twitter">
-        <img class="redes" src="img/instagram.png" width="32px" alt="Instagram">        
-    </div>
-
-    <div class="suscribete">
-            <p id="sus">Registrate a #QuiereteBonito</p>
-        <input type="email" name="email" placeholder="Tu Correo Electronico"id="email">
-        <a href="#" id="boton">Suscribete</a>
-    </div>
-
-    <div class="datos">
-        <p id="contacta">Contacta a #QuiereteBonito</p>
-        <span>330-123-45-67</span>
-        <span>info@quieretebonito.com</span>
-    </div>
-    
-    
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2018 Copyright - Diseño: Alexander Corhco - @alexcorcho
+        <a class="grey-text text-lighten-4 right" href="#!">Suscribete</a>
+        </div>
+      </div>
 </footer>
-
+    <!-- Archivos js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    
+    <script>
+    $(document).ready(function(){
+        $('.slider').slider({
+            height: 600,
+            indicators: false
+            
+        });
+    });
+    </script>
 </body>
 </html>
+
+
+
